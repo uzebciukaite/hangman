@@ -1,0 +1,339 @@
+.App {
+  background-image: linear-gradient(to right, #eed2d8, #b4bde9);
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.register,
+.login {
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  min-height: 600px;
+  background: #f9f9f9;
+  margin: 40px auto;
+  font-family: epilogue;
+  text-align: center;
+  line-height: 40px;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.outerletter {
+  border-bottom: 2px solid #b4bde9;
+}
+
+.toolbar {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+input {
+  width: 300px;
+  height: 40px;
+}
+
+button {
+  width: 120px;
+  height: 40px;
+}
+
+.outer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.questionBox div {
+  margin-top: 15px;
+  height: 50px;
+  width: 100%;
+  border-radius: 15px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.border {
+  border: 3px solid rgb(15, 16, 40);
+  box-sizing: border-box;
+}
+
+.form {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.maincont {
+  flex: 3;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  width: 100%;
+  height: 300px;
+}
+
+.maincont > div {
+  width: 200px;
+  height: 200px;
+  background: #b4bde9;
+}
+
+.seattable {
+  flex: 3;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.seattable > div {
+  width: 120px;
+  height: 120px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.controlpanel {
+  border-left: 2px solid #b4bde9;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+}
+
+.single img {
+  width: 200px;
+}
+
+.toolbar {
+  width: 100%;
+  height: 60px;
+}
+
+.allprod {
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin: 20px auto;
+}
+
+.allprod > div {
+  width: 250px;
+  height: 300px;
+  background: #f9f9f9;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.allprod > div img {
+  width: 250px;
+  height: 150px;
+}
+
+.container {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto;
+}
+
+.top {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.gameboard {
+  width: 90%;
+  height: 700px;
+  background: #f9f9f9;
+  display: flex;
+  justify-content: space-between;
+  margin: 40px auto;
+  font-family: epilogue;
+  text-align: center;
+  line-height: 40px;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.hmcont {
+  position: relative;
+  display: flex;
+  width: 400px;
+  height: 500px;
+  margin-left: 15px;
+
+  margin-top: 60px;
+}
+
+.hmbottom {
+  position: absolute;
+  width: 170px;
+  height: 30px;
+  border-top: 2px solid #b4bde9;
+  bottom: 0;
+  left: 60px;
+}
+
+.hmbody {
+  position: absolute;
+  width: 10px;
+  height: 320px;
+  border-right: 2px solid #b4bde9;
+  bottom: 30px;
+  left: 135px;
+}
+
+.hmtop {
+  position: absolute;
+  width: 150px;
+  height: 30px;
+  border-bottom: 2px solid #b4bde9;
+  top: 118px;
+  left: 145px;
+}
+.hmheadtop {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  border-right: 2px solid #b4bde9;
+  top: 148px;
+  right: 105px;
+}
+
+.hmhead {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  border: 2px solid #b4bde9;
+  border-radius: 50%;
+  top: 208px;
+  right: 75px;
+}
+
+.hmhumanbody {
+  position: absolute;
+  width: 10px;
+  height: 120px;
+  border-left: 2px solid #b4bde9;
+  top: 270px;
+  right: 95px;
+}
+
+.hmlefthand {
+  position: absolute;
+  width: 40px;
+  height: 50px;
+  border-right: 2px solid #b4bde9;
+  top: 270px;
+  right: 105px;
+  transform: rotate(-45deg);
+  transform-origin: bottom right;
+}
+.hmrighthand {
+  position: absolute;
+  width: 40px;
+  height: 50px;
+  border-right: 2px solid #b4bde9;
+  top: 270px;
+  right: 105px;
+  transform: rotate(45deg);
+  transform-origin: bottom right;
+}
+
+.hmleftleg {
+  position: absolute;
+  width: 40px;
+  height: 50px;
+  border-right: 2px solid #b4bde9;
+  top: 390px;
+  right: 105px;
+  transform: rotate(45deg);
+  transform-origin: top right;
+}
+.hmrightleg {
+  position: absolute;
+  width: 40px;
+  height: 50px;
+  border-right: 2px solid #b4bde9;
+  top: 390px;
+  right: 105px;
+  transform: rotate(-45deg);
+  transform-origin: top right;
+}
+
+.content {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+}
+
+.wordcontainer {
+  display: flex;
+  width: 100%;
+  height: 80px;
+}
+
+.wordcontainer > div {
+  width: 50px;
+  height: 100%;
+  font-size: 3em;
+  letter-spacing: 1px;
+  margin: auto;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.scoreboard {
+  display: flex;
+  width: 90%;
+  height: 600px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.singlescore {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.singlescore > div {
+  width: 120px;
+  height: 60px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #eed2d8;
+}
